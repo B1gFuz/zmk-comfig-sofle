@@ -82,11 +82,11 @@
 
         Numbers {
             bindings = <
- &trans                      &bt BT_CLR             &bt BT_NXT  &bt BT_PRV  &bt BT_SEL  &trans                  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE
- &trans  &rgb_ug RGB_COLOR_HSB(0,86,51)  &rgb_ug RGB_COLOR_HSB      &trans      &trans  &trans                  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp MINUS            &kp
- &trans                          &trans                 &trans      &trans      &trans  &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp PLUS            &kp
- &trans                          &trans                 &trans      &trans      &trans  &trans  &trans  &trans  &trans           &kp  &kp NUMBER_0        &trans        &kp ENTER            &kp
-                                                                    &trans      &trans  &trans  &trans  &trans  &trans        &trans        &trans
+ &trans                      &bt BT_CLR                      &bt BT_NXT  &bt BT_PRV  &bt BT_SEL  &trans                  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE
+ &trans  &rgb_ug RGB_COLOR_HSB(0,86,51)  &rgb_ug RGB_COLOR_HSB(0,23,91)      &trans      &trans  &trans                  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp MINUS            &kp
+ &trans                          &trans                          &trans      &trans      &trans  &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp PLUS            &kp
+ &trans                          &trans                          &trans      &trans      &trans  &trans  &trans  &trans  &trans           &kp  &kp NUMBER_0        &trans        &kp ENTER            &kp
+                                                                             &trans      &trans  &trans  &trans  &trans  &trans        &trans        &trans
             >;
         };
     };
