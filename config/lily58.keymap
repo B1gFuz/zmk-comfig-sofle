@@ -86,7 +86,7 @@
  &trans  &rgb_ug RGB_COLOR_HSB(0,86,51)  &rgb_ug RGB_COLOR_HSB(0,23,91)      &trans  &trans  &trans                  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp MINUS         &trans
  &trans                          &trans                          &trans      &trans  &trans  &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp PLUS         &trans
  &trans                          &trans                          &trans      &trans  &trans  &trans  &trans  &trans  &trans        &trans  &kp NUMBER_0        &trans        &kp ENTER         &trans
-                                                                             &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans
+                                                                             &trans  &trans  &trans  &trans  &trans  &trans    &kp DELETE        &trans
             >;
         };
     };
