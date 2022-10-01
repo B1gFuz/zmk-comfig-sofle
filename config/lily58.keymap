@@ -18,6 +18,11 @@
             bindings = <&mo 2>;
             key-positions = <51 56>;
         };
+
+        new_combo {
+            bindings = <&reset>;
+            key-positions = <0 1>;
+        };
     };
 
     keymap {
@@ -82,11 +87,11 @@
 
         Numbers {
             bindings = <
- &trans                      &bt BT_CLR                      &bt BT_NXT      &bt BT_PRV          &trans           &trans                      &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE
- &trans  &rgb_ug RGB_COLOR_HSB(0,86,51)  &rgb_ug RGB_COLOR_HSB(0,23,91)          &trans    &kp UP_ARROW           &trans                      &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp MINUS         &trans
- &trans                          &trans                          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                      &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp PLUS         &trans
- &trans                          &trans                          &trans          &trans          &trans           &trans  &trans  &trans      &trans        &trans  &kp NUMBER_0        &trans           &trans      &kp ENTER
-                                                                                 &trans          &trans           &trans  &trans  &trans  &kp DELETE        &trans        &trans
+ &trans                      &bt BT_CLR                      &bt BT_NXT      &bt BT_PRV           &trans  &trans                      &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE
+ &trans  &rgb_ug RGB_COLOR_HSB(0,86,51)  &rgb_ug RGB_COLOR_HSB(0,23,91)    &kp UP_ARROW           &trans  &trans                      &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp MINUS         &trans
+ &trans                          &trans                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                      &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp PLUS         &trans
+ &trans                          &trans                          &trans          &trans           &trans  &trans  &trans  &trans      &trans        &trans  &kp NUMBER_0        &trans           &trans      &kp ENTER
+                                                                                 &trans           &trans  &trans  &trans  &trans  &kp DELETE        &trans        &trans
             >;
         };
     };
