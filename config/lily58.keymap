@@ -26,7 +26,7 @@
     };
 
     macros {
-        Log: Log_in {
+        Log_in: Log_in {
             compatible = "zmk,behavior-macro";
             label = "Log In";
             #binding-cells = <0>;
@@ -113,7 +113,7 @@
                                                                                          &trans           &trans  &trans  &trans  &trans  &kp DELETE        &trans        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp undefined>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
