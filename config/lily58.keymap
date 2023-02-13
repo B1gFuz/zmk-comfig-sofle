@@ -26,22 +26,6 @@
     };
 
     macros {
-        Log_in: Log_in {
-            compatible = "zmk,behavior-macro";
-            label = "Log In";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LS(H) &kp A &kp R &kp L &kp E &kp Y &kp N0 &kp N7 &kp DLLR>;
-        };
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp LS(P)>;
-        };
     };
 
     keymap {
