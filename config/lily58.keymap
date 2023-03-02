@@ -32,7 +32,10 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LS(H) &kp A &kp R &kp L &kp E &kp Y &kp N0 &kp N7 &kp DLLR &kp ENTER>;
+                <&kp LS(H) &kp A &kp R &kp L &kp E &kp Y &kp N0 &kp N7 &kp DLLR &kp RET>;
+
+            tap-ms = <7>;
+            wait-ms = <100>;
         };
     };
 
