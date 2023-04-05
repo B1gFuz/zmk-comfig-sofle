@@ -32,7 +32,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LS(S) &kp H &kp E &kp E &kp T &kp S>;
+                <&kp LS(S) &kp H &kp E &kp E &kp T &kp S &kp ENTER>;
 
             wait-ms = <5>;
         };
