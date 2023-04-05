@@ -26,16 +26,21 @@
     };
 
     macros {
-        Login: Login {
+        Sheet: Sheet {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "SHEET";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LS(H) &kp A &kp R &kp L &kp E &kp Y &kp N0 &kp N7 &kp DLLR &kp RET>;
+                <&kp LS(S) &kp H &kp E &kp E &kp T &kp S>;
 
-            tap-ms = <7>;
-            wait-ms = <100>;
+            wait-ms = <5>;
+        };
+        Harley: Harley {
+            compatible = "zmk,behavior-macro";
+            label = "HARLEY";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp A &kp R &kp L &kp E &kp Y &kp N0 &kp N7 &kp PRCNT>;
         };
     };
 
@@ -101,11 +106,11 @@
 
         Numbers {
             bindings = <
-         &trans                          &trans                          &trans          &trans           &trans  &trans                   &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE
-&rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,86,51)  &rgb_ug RGB_COLOR_HSB(0,23,91)    &kp UP_ARROW           &trans  &trans                   &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp PLUS         &trans
-&rgb_ug RGB_BRI                          &trans                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                   &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp PLUS         &trans
-         &trans                          &trans                          &trans          &trans           &trans  &trans  &trans  &trans   &trans        &trans  &kp NUMBER_0        &trans           &trans      &kp ENTER
-                                                                                         &trans           &trans  &trans  &trans  &trans  &kp DEL        &trans        &trans
+         &trans                          &trans                          &trans          &trans           &trans  &trans                    &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&rgb_ug RGB_HUD  &rgb_ug RGB_COLOR_HSB(0,86,51)  &rgb_ug RGB_COLOR_HSB(0,23,91)    &kp UP_ARROW           &trans  &trans                    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp PLUS         &trans
+&rgb_ug RGB_BRI                          &trans                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp PLUS         &trans
+         &trans                          &trans                          &trans          &trans           &trans  &trans  &Harley  &Sheet   &trans        &trans  &kp NUMBER_0        &trans           &trans      &kp ENTER
+                                                                                         &trans           &trans  &trans   &trans  &trans  &kp DEL        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
