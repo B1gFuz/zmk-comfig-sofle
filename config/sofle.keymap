@@ -11,18 +11,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Layer_2 {
-            bindings = <&mo 3>;
-            key-positions = <51 56>;
-        };
-
-        new_combo {
-            bindings = <&sys_reset>;
-            key-positions = <0 1>;
-        };
     };
 
     keymap {
