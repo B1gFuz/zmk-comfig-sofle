@@ -32,7 +32,7 @@
             label = "SHEETS";
             #binding-cells = <0>;
             bindings =
-                <&none &kp &kp SPACE &kp LS(S) &kp H &kp E &kp E &kp T &kp S>,
+                <&none &kp SPACE &kp LS(S) &kp H &kp E &kp E &kp T &kp S>,
                 <&macro_press>;
         };
         Harley: Harley {
