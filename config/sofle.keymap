@@ -32,7 +32,7 @@
             label = "SHEETS";
             #binding-cells = <0>;
             bindings =
-                <&kp SPACE &kp LS(S) &kp H &kp E &kp E &kp T &kp S>,
+                <&none &kp &kp SPACE &kp LS(S) &kp H &kp E &kp E &kp T &kp S>,
                 <&macro_press>;
         };
         Harley: Harley {
@@ -40,7 +40,7 @@
             label = "HARLEY";
             #binding-cells = <0>;
             bindings =
-                <&none &kp LS(H) &kp A &kp R &kp L &kp E &kp Y &kp N0 &kp N7 &kp AMPS &kp RET>,
+                <&kp LS(H) &kp A &kp R &kp L &kp E &kp Y &kp N0 &kp N7 &kp AMPS &kp RET>,
                 <&macro_press>;
         };
     };
