@@ -13,6 +13,7 @@
 &led_strip {
     chain-length = <29>;
 };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -70,7 +71,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp BACKSPACE DELETE>,
-                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+                <&inc_dec_kp C_AC_ZOOM C_AC_ZOOM>;
         };
 
         layer_1 {
