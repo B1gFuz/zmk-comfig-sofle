@@ -38,18 +38,18 @@
                 <&macro_press>;
         };
 
-        Dubs4: new_macro {
+        Dubs4: new_macro2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(D) &kp U &kp B &kp B &kp E &kp R &kp LS(V) &kp I &kp O &kp L &kp E &kp T &kp N2 &kp N1 &kp EXCL>;
-            label = "NEW_MACRO";
+            label = "NEW_MACRO2";
         };
 
-        VPN: new_macro {
+        VPN: new_macro3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp V &kp P &kp N &kp N2 &kp DOT &kp J &kp B &kp P &kp C &kp O &kp DOT &kp N &kp E &kp T>;
-            label = "NEW_MACRO";
+            label = "NEW_MACRO3";
         };
     };
 
