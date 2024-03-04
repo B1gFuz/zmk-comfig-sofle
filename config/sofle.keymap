@@ -57,6 +57,14 @@
 
             label = "NEW_MACRO3";
         };
+
+        LST: LST {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(L) &kp LS(S) &kp LS(T)>, <&macro_press>;
+
+            label = "LST";
+        };
     };
 
     keymap {
@@ -88,7 +96,7 @@
 &trans    &trans  &trans          &trans          &trans           &trans                    &kp NON_US_BACKSLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp KP_DIVIDE
 &trans    &trans  &trans          &kp UP_ARROW    &trans           &trans                    &kp RC(P)             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &kp MINUS
 &kp CAPS  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &kp RC(C)             &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &Sheets
-&trans    &trans  &trans          &trans          &trans           &trans  &trans    &trans  &kp RC(V)             &trans           &kp KP_NUMBER_0  &trans           &to 0            &kp ENTER
+&trans    &trans  &trans          &trans          &trans           &trans  &trans    &LST    &kp RC(V)             &trans           &kp KP_NUMBER_0  &trans           &to 0            &kp KP_ENTER
                   &trans          &trans          &trans           &trans  &trans    &trans  &kp DELETE            &trans           &trans           &trans
             >;
 
