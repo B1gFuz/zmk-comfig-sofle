@@ -107,10 +107,10 @@
 
         layer_2 {
             bindings = <
-&trans    &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-&trans    &trans  &trans  &trans  &trans  &kp LC(P)                    &trans  &trans  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_ON
-&kp CAPS  &trans  &trans  &trans  &trans  &kp LC(C)                    &trans  &trans  &trans  &trans  &trans           &rgb_ug RGB_COLOR_HSB(0,0,100)
-&trans    &trans  &trans  &trans  &trans  &kp LC(V)  &trans    &trans  &trans  &trans  &trans  &trans  &trans           &rgb_ug RGB_COLOR_HSB(106,100,50)
+&trans    &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &rgb_ug RGB_BRI                  &rgb_ug RGB_BRD
+&trans    &trans  &trans  &trans  &trans  &kp LC(P)                    &trans  &trans  &trans  &trans  &rgb_ug RGB_EFF                  &rgb_ug RGB_ON
+&kp CAPS  &trans  &trans  &trans  &trans  &kp LC(C)                    &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(0,100,39)  &rgb_ug RGB_COLOR_HSB(0,0,100)
+&trans    &trans  &trans  &trans  &trans  &kp LC(V)  &trans    &trans  &trans  &trans  &trans  &trans  &trans                           &rgb_ug RGB_COLOR_HSB(106,100,50)
                   &Dubs4  &trans  &trans  &trans     &trans    &trans  &trans  &VPN    &trans  &trans
             >;
 
