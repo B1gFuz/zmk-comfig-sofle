@@ -88,11 +88,11 @@
 
         layer_1 {
             bindings = <
-&trans           &trans  &trans          &trans          &trans           &trans                    &trans     &trans      &trans     &trans      &trans           &trans
-&kp TAB          &trans  &trans          &kp UP_ARROW    &trans           &trans                    &kp RC(P)  &kp KP_N7   &kp KP_N8  &kp KP_N9   &kp KP_MULTIPLY  &kp KP_DIVIDE
-&kp CAPS         &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &kp RC(C)  &kp KP_N4   &kp KP_N5  &kp KP_N6   &kp PLUS         &kp KP_MINUS
-&kp LOCKING_NUM  &trans  &trans          &trans          &trans           &trans  &trans    &LST    &kp RC(V)  &kp KP_N1   &kp KP_N2  &kp KP_N3   &kp ENTER        &trans
-                         &trans          &trans          &trans           &trans  &trans    &trans  &trans     &kp DELETE  &kp KP_N0  &kp PERIOD
+&trans           &trans           &trans          &trans          &trans           &trans                    &trans     &trans      &trans     &trans      &trans           &trans
+&kp TAB          &trans           &trans          &kp UP_ARROW    &trans           &trans                    &kp RC(P)  &kp KP_N7   &kp KP_N8  &kp KP_N9   &kp KP_MULTIPLY  &kp KP_DIVIDE
+&kp CAPS         &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &kp RC(C)  &kp KP_N4   &kp KP_N5  &kp KP_N6   &kp PLUS         &kp KP_MINUS
+&kp LOCKING_NUM  &kp EXCLAMATION  &kp AT          &trans          &trans           &trans  &trans    &LST    &kp RC(V)  &kp KP_N1   &kp KP_N2  &kp KP_N3   &kp ENTER        &trans
+                                  &trans          &trans          &trans           &trans  &trans    &trans  &trans     &kp DELETE  &kp KP_N0  &kp PERIOD
             >;
 
             sensor-bindings =
